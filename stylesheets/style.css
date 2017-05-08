@@ -1,0 +1,184 @@
+
+body {
+	width: 80%;
+	margin: 10px auto;
+}
+
+.topHeader{
+	text-align: center;
+	font-size: 20px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.header{
+	text-align: center;
+	transform: scale(2, 1.5);
+	
+}
+
+.header h1 {
+	font-size: 45px;
+	text-shadow: 1px 1px 1px rgba(29, 31, 30, 0.94);
+	font-family: serif;
+}
+
+ul.nav{
+	list-style: none;
+	border-top: 3px solid gray; 
+	border-bottom: 4px solid black; 
+	padding-top: 10px;
+	background-color: rgba(194, 178, 107, 0.69);
+}
+
+ul.nav li{
+	display: inline-block;
+	padding: 0px 100px;
+}
+
+li.active {
+	border-bottom: 3px solid white;
+}
+
+.main_content {
+	float: left;
+	width: 60%;
+}
+
+.photos {
+	float: right;
+	width: 40%;
+	height: 350px;
+	position: relative;
+	padding-top: 15px; 
+
+}
+
+.photos img {
+
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	border: 3px solid black;
+}
+
+
+.headLine {
+	text-align: center;
+	font-size: 20px;
+	color: rgb(79, 90, 72);  
+	text-decoration: underline;
+
+}
+
+
+
+/* Cezanne Page styling */
+
+.cezanne{
+	margin-top: 85px;
+	margin-bottom: 85px;
+	margin-left: 20px; 
+}
+
+
+.reveal-on-hover {
+	position: relative;
+	height: 250px;
+	width: 225px;
+	margin-right: 45px; 
+}
+
+.reveal-on-hover img {
+	width: 90%;
+	height: 90%;
+	position: absolute;
+}
+
+.reveal-on-hover:hover img{
+	transform: scale(1.5, 1.5);
+}
+
+
+.matisse {
+	margin-top: 85px;
+	margin-bottom: 85px; 
+	margin-left: 35px; 
+
+}
+
+.renoir {
+	margin-top: 85px;
+	margin-bottom: 85px; 
+	margin-left: 35px; 
+
+}
+
+.photo-change{
+	position: relative;
+	width: 200px;
+	height: 250px;
+	margin-right: 60px; 
+}
+
+.photo-change img{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+.photo-change img.bottom {
+	opacity: 0;
+}
+
+.photo-change:hover img{
+	transform: scale(1.5, 1.5);
+}
+
+.photo-change img.bottom:hover{
+	opacity: 1;
+	transition: opacity 5s;
+}
+
+.shiftLeft{
+	transform: translate3d(-40px, 0, 0);
+}
+
+.shiftRight{
+	transform: translate3d(40px, 0, 0);
+}
+
+.eventsMailShop {
+	border-top: 2px solid black;
+	clear: both;
+	background-color: rgba(194, 178, 107, 0.69);
+	padding-bottom: 40px;
+	
+}
+
+.cezFooter {
+	border-right: 1px solid black;
+	padding-right: 15px; 
+}
+
+.renFooter{
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+
+}
+
+.matFooter{
+	border-left: 1px solid black;
+
+}
+
+.info {
+	background-color: rgba(194, 178, 107, 0.69);
+	font-weight: bold; 
+}
+
+.socialIcons a {
+	color: black; 
+}
+
+
